@@ -1,5 +1,8 @@
+@file:OptIn(ExperimentalLayoutApi::class)
+
 package com.mp3os.player
 
+import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import android.app.Activity
 import android.bluetooth.BluetoothManager
 import android.content.Context
